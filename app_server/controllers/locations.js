@@ -1,10 +1,10 @@
 /* GET locations page */
 var locationInfo = function(req, res){
-  res.render('index', { title: 'location' });
+  res.render('location-info', { title: 'location Info' });
 };
 
 var addReview = function(req, res){
-  res.render('index', { title: 'Review'});
+  res.render('location-review-form', { title: 'Review'});
 };
 
 module.exports.locationInfo = locationInfo;
